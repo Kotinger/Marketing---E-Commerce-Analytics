@@ -14,4 +14,4 @@ data/snapshot/events_snap_sample.csv
 data/snapshot/products_snap.csv
 data/snapshot/transactions_snap.csv
 .gigacode_vsc/plans/1786879810559-nimble-tiger.md
-.gitignore
+__pycache__/
