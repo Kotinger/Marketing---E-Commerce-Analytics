@@ -148,8 +148,8 @@ python scripts/ab_test_sessions.py
 streamlit run scripts/EDA_campaigns.py
 streamlit run scripts/EDA_customers.py
 streamlit run scripts/EDA_sales.py
-streamlit run scripts/DASH_behavior.py
-streamlit run scripts/DASH_ab_test.py
+streamlit run scripts/EDA_behavior.py
+streamlit run scripts/EDA_ab_test.py
 ```
 
 A/B: терминал `python scripts/ab_test_sessions.py` или дашборд `EDA_ab_test.py`.
