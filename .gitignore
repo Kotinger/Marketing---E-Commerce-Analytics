@@ -1,0 +1,15 @@
+data/campaigns.csv
+data/customers.csv
+data/events.csv
+data/products.csv
+data/transactions.csv
+scripts/loading.py
+docs/ONE_PAGER.md
+docs/ONE_PAGER.pdf
+docs/SLIDES_OUTLINE.md
+data/snapshot/ab_test_results.csv
+data/snapshot/campaigns_snap.csv
+data/snapshot/customers_snap.csv
+data/snapshot/events_snap_sample.csv
+data/snapshot/products_snap.csv
+data/snapshot/transactions_snap.csv

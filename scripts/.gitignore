@@ -1,0 +1,25 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Env / secrets
+.env
+.env.*
+
+# Large raw events (GitHub file limit 100MB) — держи локально или Git LFS
+data/events.csv
+
+# Streamlit / logs
+*.log
+.streamlit/secrets.toml
