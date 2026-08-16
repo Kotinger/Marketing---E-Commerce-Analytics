@@ -3,7 +3,11 @@
 Пет-проект по анализу данных e-commerce. 
 Датасет : https://www.kaggle.com/datasets/geethasagarbonthu/marketing-and-e-commerce-analytics-dataset
 
-Интерактивные дашборды на **Streamlit**/
+## 🚀 Демо-доступ  
+👉 [Открыть портал с дашбордами Streamli](https://marketing---e-commerce-analytics-jcatem7dghwcwixrddyetr.streamlit.app/)
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://marketing---e-commerce-analytics-jcatem7dghwcwixrddyetr.streamlit.app/)
+
 
 ---
 
