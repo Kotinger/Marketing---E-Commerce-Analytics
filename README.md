@@ -104,9 +104,6 @@
 | `scripts/EDA_behavior.py` | воронка / traffic / device (+ краткий A/B preview) |
 | `scripts/EDA_ab_test.py` | полный A/B дашборд: SRM, chi², z-test, CI, Bonferroni |
 
-Краткий one-pager: [`docs/ONE_PAGER.md`](docs/ONE_PAGER.md) · PDF: [`docs/ONE_PAGER.pdf`](docs/ONE_PAGER.pdf)  
-Опора для слайдов: [`docs/SLIDES_OUTLINE.md`](docs/SLIDES_OUTLINE.md)
-
 ---
 
 ## Быстрый старт
@@ -151,8 +148,8 @@ python scripts/ab_test_sessions.py
 streamlit run scripts/EDA_campaigns.py
 streamlit run scripts/EDA_customers.py
 streamlit run scripts/EDA_sales.py
-streamlit run scripts/EDA_behavior.py
-streamlit run scripts/EDA_ab_test.py
+streamlit run scripts/DASH_behavior.py
+streamlit run scripts/DASH_ab_test.py
 ```
 
 A/B: терминал `python scripts/ab_test_sessions.py` или дашборд `EDA_ab_test.py`.
@@ -186,7 +183,7 @@ Python, pandas, pyarrow, Streamlit, matplotlib, seaborn, plotly.
 ## Логика выбора анализа
 
 - **products** — без отдельного тяжёлого EDA: товар раскрывается в `EDA_sales`.
-- **events** — не value_counts на 2M строк, а `build_sessions` + воронка в `EDA_behavior`.
+- **events** — не value_counts на 2M строк, а `build_sessions` + воронка в `DASH_behavior`.
 - **transactions** — главный денежный слой только после join с dims.
 
 ---
@@ -194,4 +191,4 @@ Python, pandas, pyarrow, Streamlit, matplotlib, seaborn, plotly.
 ## Автор
 
 Pet-project по анализу данных (portfolio).  
-Если будешь форкать — поставь ⭐ и опиши свой датасет в issue/PR.
+@Main_cat
