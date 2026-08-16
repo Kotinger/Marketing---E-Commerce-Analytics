@@ -76,8 +76,8 @@
    
 Шаг 3. Ветвление на исследовательские задачи (EDA)
    Из папки data/snapshot/ берутся подготовленные паркеты
-   DASH_behavior (на основе sessions_funnel) – анализ воронки поведения
-   DASH_ab_test по experiment_group (сессии) - статтест A/B 
+   ├──DASH_behavior (на основе sessions_funnel) – анализ воронки поведения
+   └── DASH_ab_test по experiment_group (сессии) - статтест A/B 
 ```
 
 ### Скрипты
@@ -93,7 +93,7 @@
 | `scripts/dtypes_*.py` | типы данных → parquet |
 | `scripts/build_sessions.py` | events → session-level воронка |
 | `scripts/ab_test_sessions.py` | A/B статтест (chi², z-test, CI, SRM, Bonferroni) |
-| `scripts/make_one_pager_pdf.py` | пересобрать `docs/ONE_PAGER.pdf` |
+
 
 **Дашборды**
 | Файл | Что делает |
@@ -171,9 +171,6 @@ Python, pandas, pyarrow, Streamlit, matplotlib, seaborn, plotly.
 │   ├── *.csv                 # исходники (events.csv — локально)
 │   └── snapshot/             # обработанные parquet/csv
 ├── scripts/                  # pipeline + EDA
-├── docs/
-│   ├── ONE_PAGER.md
-│   └── SLIDES_OUTLINE.md
 ├── requirements.txt
 └── README.md
 ```
